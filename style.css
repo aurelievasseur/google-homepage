@@ -32,23 +32,21 @@ body {
     grid-template-areas: "menu1 menu2";
     padding: 0.8em;
     position: relative;
-}
-.nav-left > a {
     color: rgb(43, 43, 43);
 }
-.nav-right > a {
-    color: rgb(43, 43, 43);
-}
+
+
 .nav-left {
     grid-area: menu1;
     justify-self: left;
     font-size: 14px;
-    
+    color: inherit;
 }
 .nav-right {
     grid-area: menu2;
     justify-self: right;
     font-size: 13px;
+    color: inherit;
 }
 
 .center-content {
@@ -64,9 +62,11 @@ body {
 a {
     text-decoration: none;
     padding-right: 1.5em;
+    color: inherit;
 }
 a:hover {
     text-decoration: underline;
+    color: inherit;
 }
 a:visited {
     text-decoration: none;
@@ -147,26 +147,21 @@ footer{
     border-style: solid;
     border-width: 0.01em;
     line-height: 45px;
+    color: rgb(107, 106, 106);
 }
 .footer-left {
     display: inline-block;
     grid-area: footer1;
     justify-self: left;
     padding-left: 4em;
-    color: rgb(107, 106, 106);
+    color: inherit;
+    
 }
 
 .footer-right{
     display: inline-block;
     grid-area: footer2;
     justify-self: right;
-    color: rgb(107, 106, 106);
-}
-
-.footer-right > a {
-    color: rgb(107, 106, 106);
-}
-.footer-left a {
-    color: rgb(107, 106, 106);
+    color: inherit;
 }
 
