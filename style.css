@@ -33,12 +33,17 @@ body {
     padding: 0.8em;
     position: relative;
 }
-
+.nav-left > a {
+    color: rgb(43, 43, 43);
+}
+.nav-right > a {
+    color: rgb(43, 43, 43);
+}
 .nav-left {
     grid-area: menu1;
     justify-self: left;
     font-size: 14px;
-    color: rgb(43, 43, 43);
+    
 }
 .nav-right {
     grid-area: menu2;
@@ -139,7 +144,6 @@ footer{
     grid-area: footer;
     height: 45px;
     background-color: rgb(233, 233, 233);
-    color: rgb(107, 106, 106);
     border: rgb(209, 209, 209);
     border-style: solid;
     border-width: 0.01em;
@@ -150,14 +154,20 @@ footer{
     grid-area: footer1;
     justify-self: left;
     padding-left: 4em;
+    color: rgb(107, 106, 106);
 }
+
 .footer-right{
     display: inline-block;
     grid-area: footer2;
     justify-self: right;
+    color: rgb(107, 106, 106);
 }
-:-webkit-any-link {
-    color: inherit;
-    text-decoration: inherit;
+
+.footer-right > a {
+    color: rgb(107, 106, 106);
+}
+.footer-left a {
+    color: rgb(107, 106, 106);
 }
 
