@@ -156,10 +156,7 @@ footer{
     justify-self: right;
 }
 :-webkit-any-link {
+    color: inherit;
+    text-decoration: inherit;
 }
 
-:-moz-any-link {
-}
-
-:any-link {
-}
