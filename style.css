@@ -155,3 +155,11 @@ footer{
     grid-area: footer2;
     justify-self: right;
 }
+:-webkit-any-link {
+}
+
+:-moz-any-link {
+}
+
+:any-link {
+}
