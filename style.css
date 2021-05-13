@@ -1,3 +1,12 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+    max-width: 100%;
+    width: 100vw;
+}
 body {
     display: grid;
     grid-template-areas: 
@@ -8,7 +17,7 @@ body {
     font-family: arial, sans-serif;
     width: 100vw;
     height: 100vh;
-    grid-template-rows:7% 80% 45px 47px;
+    grid-template-rows:7% 83% 45px 47px;
 }
 #matrix-menu {
     position: relative;
@@ -37,6 +46,8 @@ body {
 
 
 .nav-left {
+    position: relative;
+    top: 16px;
     grid-area: menu1;
     justify-self: left;
     font-size: 14px;
